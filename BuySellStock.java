@@ -7,8 +7,8 @@ public class BuySellStock {
             for (int j = i + 1; j < prices.length; j++) {
                 if (prices[i] < prices[j]) {
                     profit = Math.max(profit, prices[j] - prices[i]);
-                } 
-                
+                }
+
                 else {
                     i = j;
                 }
